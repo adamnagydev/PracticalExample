@@ -18,6 +18,7 @@ struct PracticalExampleApp: App {
                 ContentView()
                     .navigationTitle("Contents")
             }
+            .navigationViewStyle(.stack)
             .environmentObject(store)
         }
     }
